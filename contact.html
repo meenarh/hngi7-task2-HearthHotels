@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="https://fonts.googleapis.com/css2?familt=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Contact Us</title>
+</head>
+
+<style>
+    body {
+        background-color: #302B26;
+        font-family: 'Open-Sans', Arial, sans-serif;
+    }
+
+    .header {
+        background: url('header.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+    }
+
+    .top-left {
+        color: white;
+        margin-left: 50px;
+        padding-top: 70px;
+        font-size: 30px;
+        padding-left: 100px;
+    }
+
+    .hearth {
+        font-size: 30px;
+        color: #EAB058;
+    }
+
+    .hotel {
+        color: white;
+    }
+
+    .middle-left {
+        color: white;
+        margin-left: 50px;
+        padding-left: 100px;
+    }
+
+    .body {
+        margin-left: 50px;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    .card {
+        height: 300px;
+        padding: 16px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        background-color: aliceblue;
+        text-align: center;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .container {
+        padding: 2px 16px;
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .card img {
+        margin-top: 20px;
+    }
+
+    .card p {
+        color: black;
+        text-align: center;
+    }
+
+    .card h5 {
+        font-size: 20px;
+    }
+
+    .card a {
+        color: dodgerblue;
+        text-decoration: none;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .column {
+        float: left;
+        width: 40%;
+        padding: 0 10px;
+    }
+
+    .row {
+        margin: 0 -5px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /*Responsiveness*/
+
+    @media screen and (max-width:750px) {
+        .column {
+            widows: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+</style>
+
+<body>
+
+    <div class="body">
+
+        <!--Header-->
+        <div class="header">
+
+            <!--Contact-->
+            <div class="top-left">
+                <b>Contact</b>
+            </div>
+
+            <div class="middle-left">
+                <b>
+                    <p class="hearth">Hearth
+                        <span class="hotel">Hotels</span>
+                    </p>
+                    <h5 class="bottom-left">We want to hear from you</h5>
+                </b>
+            </div>
+
+
+            <!--Contact Ends-->
+
+            <!--Navigation-->
+        </div>
+        <!--Header-->
+
+        <!--Body-->
+        <div class="body">
+            <h2>Visit our office</h2>
+            <p>45, Carlton Gate, Idi Ape Road, Ikeja,</p>
+            <p>Lagos.</p>
+
+            <h2>Talk with Us.</h2>
+
+            <!--Row-->
+            <div class="row">
+
+                <div class="column">
+
+                    <!--Cards-->
+                    <div class="card">
+
+                        <img src="phone.jpg" width="20px" height="20px">
+
+                        <div class="container">
+
+                            <h5>Talk with Management.</h5>
+
+                            <p>Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis portitor voluptat.</p> <br />
+
+                            <p><a href="#">+234 700 000 000</a></p>
+                            <a href="#">View all Global numbers</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+
+                    <div class="card">
+
+                        <img src="msg.png" width="20px" height="20px">
+
+                        <div class="container">
+
+                            <h5>Speak with our customer support</h5>
+
+                            <p>Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis portitor voluptat.</p> <br />
+
+                            <button class="btn" style="color: black; background-color: #EAB058; width: 200px; height: 50px;">Contact Support</button>
+                        </div>
+                    </div>
+                </div>
+                <!--End of Cards-->
+            </div>
+            <!--End of row-->
+        </div>
+        <!--Body-->
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <script src="./js/toggleUp.js"></script>
+</body>
+
+</html>
